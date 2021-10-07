@@ -1,0 +1,486 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/* CONTAINER GENERAL STYLING */
+.general span{
+    font-family:serif;
+    font-weight:200;
+    font-size: 4rem;
+}
+.learn{
+    opacity:60%;
+}
+.general span , P{
+    margin-bottom:2em;
+
+}
+.general p{
+    font-size:1rem;
+}
+.container{
+    background-color:#211f40;
+    text-align:center;
+    padding:2em;
+    text-transform: capitalize;
+    color:#fff;
+    font-size:2rem;
+}
+.content{
+    display: flex;
+    flex-flow:row nowrap;
+    margin:0 auto;
+    width:80%;
+}
+.content div{
+    flex-basis: 80%;
+    margin:50px 20px;
+}
+.main span{
+    display:block;
+    text-transform:capitalize; 
+    margin-left:10px;     
+}
+.main h3{
+    text-transform: capitalize;
+    font-size:3rem;
+    font-family: serif;
+    font-weight:100;
+    color:#16163f;
+    border-left:3px solid #d3b574;
+    padding-left:13px;
+    margin-top:16px;
+}
+.text{
+    line-height:1em;
+    padding-top:4em;
+}
+/* CONTAINER GENERAL STYLING ENDS */
+
+/* CONTENT SUBMAIN STYLING */
+.submain span{
+    display: block;
+    text-transform: capitalize;
+}
+.numbers{
+    font-size:3rem;
+    font-weight:bold;
+}
+.submain span , p{
+    margin:10px;
+}
+.pb{
+    font-size:20px;
+}
+.space{
+    padding:0px 20px;
+}
+.line{
+    border-left:3px solid #d3b574;
+}
+/* CONTENT SUBMAIN ENDS */
+
+/* CONTINUEW STYLING */
+.continue{
+    background-image:url("img/Como-llegar-a-CEO.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    min-height:50vh;
+    background-blend-mode:overlay;
+    background-color:rgba(0,0,0,.8);
+    text-align:center;
+    margin-top:6em;
+}
+.continue div{
+    padding:8em;
+    color:white;
+}
+.continue div p{
+    font-size:55px;
+    text-transform: capitalize;
+    font-weight:100;
+}
+.continue div span{
+    display: block;
+    margin-top:1em;
+    text-transform: capitalize;
+    font-size:15px;
+    font-family:sans-serif;
+}
+.dp{
+    display: flex;
+    flex-flow:row nowrap;
+    margin:0 auto;
+    width:90%;
+}
+.dp div{
+    width:33.3%;
+    margin-top:6em;
+    margin-right:3em;
+}
+.end ,.end2{
+    background-image:url("img/smiling-african-american-businesswoman-with-paperwork-in-the-office-picture-id1178033426.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color:rgba(0,0,0,.5);
+}
+.end2{
+    background-image:url("img/Screen-Shot-2020-04-09-at-10.09.42-PM-970x851.png")
+}
+.room span{
+    text-transform: capitalize;
+    font-size:12px;
+    font-family: sans-serif;
+    font-weight:300;
+    padding-left:15px;
+}
+.room h3{
+    text-transform: capitalize;
+    font-weight:300;
+    font-size:40px;
+    margin:5px 0px;
+    border-left:3px solid #d3b574;
+    padding-left:15px;
+    color:#16163f;
+}
+.p{
+    width:90%;
+    line-height:1.25em;
+    padding-right:20px;
+}
+/* CONTINUE STYLING ENDS */
+
+/* KEY STYLING */
+.key{
+    text-align:center;
+    margin-top:5em;
+    text-transform: capitalize;
+    padding:50px;
+}
+.key span{
+    font-family:sans-serif;
+    font-size:13px;
+    color:#000;
+    font-weight:100;
+}
+.key h2{
+    margin-top:6px;
+    font-size:40px;
+    color:#16163f;
+    font-weight: 300;
+}
+.pin{
+    display: flex;
+    flex-flow:row nowrap;
+    margin:0 auto;
+    width:90%;
+}
+.pin div{
+    margin-top:30px;
+    width:100%;
+    margin-right:2em;
+    padding:8px;
+}
+.merge{
+    background-image:url("img/emba-career-2.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.principal div{
+    width:90%;
+    border-left:3px solid #d3b574;
+    padding-left:20px;
+}
+.principal span{
+    display: block;
+    padding-left:10px;
+    text-transform:capitalize;
+    font-size:15px;
+    font-weight:100;
+}
+/* KEY STYLING ENDS */
+
+/* HELP STYLING */
+.help{
+    background-image:url("img/Female-CEO.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color:rgba(0,0,0,.7);
+    text-align:center;
+    margin-top:10em;
+}
+.help span{
+    display: block;
+    padding-top:2em;
+    color:white;
+    text-transform: capitalize;
+    font-size:55px;
+    font-weight:100;
+}
+.help p{
+    color:white;
+    margin:0 auto;
+    width:35%;
+    font-size:20px;
+    font-weight:100;
+    line-height:1.2em;
+    padding-top:1em;
+}
+.help a{
+    text-transform:capitalize;
+    display: inline-block;
+    text-decoration: none;
+    font-size:20px;
+    color:black;
+    margin:2em;
+    padding:0.3em;
+    width:10%;
+    text-align:center;
+    font-family:sans-serif;
+    background-color:#d3b574;
+}
+.experts{
+    background-color:#16163f;
+    text-align:center;
+    margin:0 auto;
+    width:90%;
+    margin-top:6em;
+    padding-top:5em;
+}
+.experts h2{
+    color:#fff;
+    font-size:60px;
+    text-transform: capitalize;
+    font-weight:200;
+}
+.experts p{
+    color:white;
+    margin:0 auto;
+    width:35%;
+    font-size:15px;
+    line-height:1.2em;
+    padding-top:2em;
+}
+.experts a{
+    text-transform:capitalize;
+    display: inline-block;
+    text-decoration: none;
+    font-size:20px;
+    color:black;
+    margin:2em;
+    padding:0.3em;
+    width:10%;
+    text-align:center;
+    font-family:sans-serif;
+    background-color:#d3b574;
+}
+.know{
+    margin-top:6em;
+    text-align:center;
+}
+.know span{
+    text-transform: capitalize;
+    font-weight:100;
+}
+.know h3{
+    text-transform: capitalize;
+    font-size:40px;
+    color:#16163f;
+    margin-top:0.3;
+}
+.questions{
+    display: flex;
+    flex-flow:row wrap;
+    margin:0 auto;
+    width:90%;
+}
+.questions p{
+    margin-right:90px;
+    width:40.5%;
+    padding-left:20px;
+    padding:20px;
+    text-transform: capitalize;
+    font-size:18px;
+    font-weight:100;
+    border-bottom:3px solid #d3b574;
+}
+/* HELP STYLING ENDS */
+
+@media screen and (max-width:500px){
+    body{
+        min-height:100vh;
+        width:100%;
+    }
+    .container {
+        margin:0 auto;
+        width:100%;        
+        text-align: center;
+    }
+    .general span{
+        font-weight:100;
+        font-size:1.5em;
+    }
+    .learn{
+        opacity:40%;
+    }
+    .general span,p{
+        margin-bottom:0.5em;
+    }
+    .content{
+        display:flex;
+        flex-direction:column;
+        width:80%;
+        margin:0 auto;
+    }
+    .content div{
+        flex-basis:30%;
+        margin:10px 0px 0px;
+    }
+    .main span{
+        display: block;
+        margin-top:20px;
+    }
+    .main h3{
+        font-size:2.5rem;
+    }
+    .text{
+        margin-right:20px;
+        padding:0.3em;
+        line-height:1.4em;
+    }
+    .continue{
+        background-image:url("img/Como-llegar-a-CEO.jpg");
+        background-repeat:no-repeat;
+        background-blend-mode:overlay;
+        background-color:rgba(0,0,0,.8);
+        text-align: center;
+        width:100%;
+        /* max-height:80vh; */
+    }
+    .continue div{
+        padding:0em;
+        color:#fff;
+    }
+    span{
+        display:inline-block;
+    }
+    .continue div p{
+        font-weight:100;
+        font-size:25px;
+        margin:0px auto;
+    }
+    .move{
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        margin-top:20px;
+    }
+    .dp{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        margin:0 auto;
+        width:90%;
+    }
+    .dp div{
+        width:90%;
+        margin-top:2em;
+        margin-right:0em;
+        max-height:100vh;
+    }
+    .end ,.end2{
+        height:50vh;
+    }
+    .room h3{
+        font-size:25px;
+    }
+    .p{
+        width:100%;
+        line-height:1.4em;
+    }
+    .key{
+        margin-top:0.5em;
+    }
+    .pin{
+        display:flex;
+        flex-direction:column;
+        width:90%;
+        margin:0 auto;
+    }
+    .pin div{
+        width:90%;
+        /* margin:2em auto 0em; */
+        margin-top:2em;
+        margin-right:0em;
+        max-height:100vh;
+    }
+    .principal{
+        width:100%;
+        /* margin:10px auto 0px; */
+    }
+    .merge{
+        height:50vh;
+        /* margin-top:10px; */
+        /* margin:10px auto 0px; */
+    }
+    .help{
+        margin-top:20px;
+    }
+    .help span{
+        font-size:30px;
+    }
+    .help p{
+        width:80%;
+    }
+    .help a{
+        width:30%;
+        font-size:15px;
+    }
+    .experts{
+        margin-top:70px;
+        width:100%;
+    }
+    .experts h2{
+        font-size:30px;
+        font-weight:100;
+        width:80%;
+        margin:0 auto;
+    }
+    .experts p{
+        font-size:15px;
+        line-height:1.6em;
+        margin:0 auto;
+        width:80%;
+    }
+    .experts a{
+        width:70%;
+        margin:30px auto;
+    }
+    .know{
+        margin-top:2em;
+    }
+    .know h3{
+        font-size:30px;
+        margin-top:0.3em;
+    }
+    .questions{
+        display:flex;
+        flex-direction:column;
+        width:90%;
+        margin:0 auto;
+    }
+    .questions p{
+        width:100%;
+        border-bottom:1px solid #d3b574;
+        padding-left:30px;
+    }
+}
